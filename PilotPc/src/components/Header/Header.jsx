@@ -16,7 +16,6 @@ const Header = ({variant = false}) => {
                     <Link className="link" to="/productos/Sillas Gamer">Sillas Gamer</Link>
                     <Link className="link" to="/productos/Notebooks">Notebooks</Link>
                     <Link className="link" to="/productos/Pc Gamer">Pc Gamer</Link>
-                    <Link className="link" to="/nosotros">Nosotros</Link>
                     <Buscador />
                 </nav>
             </div>
