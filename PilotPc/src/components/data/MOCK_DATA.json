@@ -1,0 +1,218 @@
+[
+    {
+        "id": 1,
+        "nombre": "Monitores 1",
+        "precio": 11645,
+        "descripcion": "In hac habitasse platea dictumst. ",
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "category": "Monitores",
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "nombre": "Monitores 2",
+        "precio": 17672,
+        "descripcion": "In hac habitasse platea dictumst. ",
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "category": "Monitores",
+        "stock": 40
+    },
+    {
+        "id": 3,
+        "nombre": "Monitores 3",
+        "precio": 7086,
+        "descripcion": "In hac habitasse platea dictumst. ",
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "category": "Monitores",
+        "stock": 27
+    },
+    {
+        "id": 4,
+        "nombre": "Monitores 4",
+        "precio": 12706,
+        "descripcion": "In hac habitasse platea dictumst. ",
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "category": "Monitores",
+        "stock": 8
+    },
+    {
+        "id": 5,
+        "nombre": "Monitores 5",
+        "precio": 5278,
+        "descripcion": "In hac habitasse platea dictumst. ",
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "category": "Monitores",
+        "stock": 5
+    },
+    {
+        "id": 6,
+        "nombre": "Monitores 6",
+        "precio": 6650,
+        "descripcion": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "category": "Monitores",
+        "stock": 26
+    },
+    {
+        "id": 7,
+        "nombre": "Sillas Gamer 1",
+        "precio": 4570,
+        "descripcion": ", convallism osue, solac est nisl, ue. Aliquam erat volutpat.",
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "category": "Sillas Gamer",
+        "stock": 46
+    },
+    {
+        "id": 8,
+        "nombre": "Sillas Gamer 2",
+        "precio": 14583,
+        "descripcion": "Phasellus in felis. Donec semper sapior quis odio consequat varius.",
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "category": "Sillas Gamer",
+        "stock": 17
+    },
+    {
+        "id": 9,
+        "nombre": "Sillas Gamer 3",
+        "precio": 5233,
+        "descripcion": "In sagittis dui vel nislfeuifend quam a odictumst.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "category": "Sillas Gamer",
+        "stock": 32
+    },
+    {
+        "id": 10,
+        "nombre": "Sillas Gamer 4",
+        "precio": 5963,
+        "descripcion": "Curabitur gravida nisi at am, solliciat, lorem.",
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "category": "Sillas Gamer",
+        "stock": 19
+    },
+    {
+        "id": 11,
+        "nombre": "Sillas Gamer 5",
+        "precio": 10482,
+        "descripcion": "Proe cubamet lobortis sapien sapien non mi. Integer ac neque.",
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "category": "Sillas Gamer",
+        "stock": 17
+    },
+    {
+        "id": 12,
+        "nombre": "Sillas Gamer 6",
+        "precio": 7396,
+        "descripcion": "Morbullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "category": "Sillas Gamer",
+        "stock": 40
+    },
+    {
+        "id": 13,
+        "nombre": "Sillas Gamer 1",
+        "precio": 2687,
+        "descripcion": "Quisque portper .sapien a libero. Nam dui.",
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "category": "Sillas Gamer",
+        "stock": 37
+    },
+    {
+        "id": 14,
+        "nombre": "Sillas Gamer 2",
+        "precio": 18950,
+        "descripcion": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "category": "Notebooks",
+        "stock": 45
+    },
+    {
+        "id": 15,
+        "nombre": "Sillas Gamer 3",
+        "precio": 12221,
+        "descripcion": "Lorem ipsum dolctufend.  fringilla rhoncus.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "category": "Notebooks",
+        "stock": 24
+    },
+    {
+        "id": 16,
+        "nombre": "Sillas Gamer 4",
+        "precio": 13715,
+        "descripcion": "Maecenas leo ollei.ae ipsum. Aliquam non mauris.",
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "category": "Notebooks",
+        "stock": 14
+    },
+    {
+        "id": 17,
+        "nombre": "Sillas Gamer 5",
+        "precio": 2280,
+        "descripcion": "Suspendisse potenti. In eleifend qictumst.",
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "category": "Notebooks",
+        "stock": 34
+    },
+    {
+        "id": 18,
+        "nombre": "Sillas Gamer 6",
+        "precio": 8228,
+        "descripcion": "Fusce posuere felis seuet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "category": "Notebooks",
+        "stock": 24
+    },
+    {
+        "id": 19,
+        "nombre": "Pc Gamer 1",
+        "precio": 8018,
+        "descripcion": "In quis justo. ultus orci luctus etm. Suspendisse potenti.",
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "category": "Pc Gamer",
+        "stock": 25
+    },
+    {
+        "id": 20,
+        "nombre": "Pc Gamer 2",
+        "precio": 11406,
+        "descripcion": "Morb\nFusce consequat. Nulla nisl. Nunc nisl.",
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "category": "Pc Gamer",
+        "stock": 3
+    },
+    {
+        "id": 21,
+        "nombre": "Pc Gamer 3",
+        "precio": 7065,
+        "descripcion":"at   parturient montes, nascetur ridiculus mus.",
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "category": "Pc Gamer",
+        "stock": 13
+    },
+    {
+        "id": 22,
+        "nombre": "Pc Gamer 4",
+        "precio": 18789,
+        "descripcion": "Nullaa rutrum, nulla. Nunc purus.",
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "category": "Pc Gamer",
+        "stock": 40
+    },
+    {
+        "id": 23,
+        "nombre": "Pc Gamer 5",
+        "precio": 13713,
+        "descripcion": "putate vcenas pulvinar lobortis est.",
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "category": "Pc Gamer",
+        "stock": 43
+    },
+    {
+        "id": 24,
+        "nombre": "Pc Gamer 6",
+        "precio": 8600,
+        "descripcion": "Duis aliquam convallis nunc. Proilit.",
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "category": "Pc Gamer",
+        "stock": 18
+    }
+]

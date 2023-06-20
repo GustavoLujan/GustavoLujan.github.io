@@ -1,0 +1,14 @@
+
+.list__container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.list__container h2 {
+    color: rgb(41, 118, 233);
+    font-weight: 700;
+}
+.list__container p {
+    font-size: 18px;
+}
