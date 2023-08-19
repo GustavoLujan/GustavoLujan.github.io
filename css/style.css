@@ -1,0 +1,853 @@
+@charset "UTF-8";
+/*---- variables-----*/
+/*--- fin variables---*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+ }
+main{
+  overflow: hidden;
+}
+
+/*------ Navegador ----*/
+nav {
+  background-color: #000; }
+
+.nav-item {
+  color: #c7c7c7;
+  font-size: "Bebas Neue", cursive; }
+
+.nav-item:hover {
+  color: #5e5e5e; }
+.navbar-brand img{
+width:32px;
+height: 32px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row; 
+}
+
+.fa-bars{
+  color:#fff;
+}  
+
+/*------ Body ------*/
+.main {
+  background-color: #fff; }
+
+/* seccion uno index */
+.contenedorMain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "destacado destacado"
+ "about     about"
+ "compra  compra";
+  background-color: #fff; }
+
+.contenidoUno {
+  grid-area: destacado;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)), url(../imagenes/img-1.jpg);
+  background-size: cover;
+  height: 50em;
+  width: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .contenidoUno__hr {
+    width: 70%;
+    height: 1px;
+    background-color: #fff; }
+  .contenidoUno__titulo {
+    padding-top: 12.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-size: 5rem;
+    align-self: center;
+    color: #fff; }
+  .contenidoUno__subtitulo {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    align-self: center;
+    color: #fff;
+    padding: 1rem; }
+  .contenidoUno__span {
+    font-size: 2rem;
+    font-family: "Bebas Neue", cursive; }
+
+/*****Seccion sobre ellos*****/
+.contenidoDos {
+  grid-area: about;
+  background-color: #eee;
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "texto foto";
+  padding: 2.5rem;
+  align-content: center;
+  align-items: center; }
+  .contenidoDos__img {
+    grid-area: foto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center; }
+  .contenidoDos__texto {
+    grid-area: texto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .contenidoDos__titulo {
+    font-family: "Bebas Neue", cursive;
+    font-size: 2.5rem;
+    padding-left: 1.875rem;
+    color: #000; }
+  .contenidoDos__parrafo {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.2rem;
+    color: #363636;
+    padding-top: 1.875rem; }
+
+/*****seccion compras****/
+.compra {
+  grid-area: compras;
+  background-color: #383838;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "box store";
+  background-color: #1a1a1a;
+  height: auto; }
+  .compra__contenido {
+    grid-area: box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px; }
+  .compra__texto {
+    padding: 2rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column; }
+  .compra__img {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: auto;
+    align-self: center;
+    justify-content: center; }
+  .compra__titulo {
+    font-family: "Bebas Neue", cursive;
+    color: #fff;
+    padding-left: 2rem;
+    font-size: 2.5rem; }
+  .compra__info {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #dadada;
+    font-size: 1.5rem; }
+  .compra__btn {
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    align-self: flex-end;
+    padding: 1em;
+    background-color: #ffffff;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 1s; }
+  .compra__btn a {
+    align-self: flex-end; }
+  .compra__btn:hover {
+    transform: scale(1.04);
+    background-color: #5e5e5e;
+    text-decoration: none;
+    color: #fff; }
+
+.store {
+  grid-area: store;
+  display: flex;
+  flex-direction: column;
+  background-color: #4b4b4b;
+  padding-top: 20px; }
+  .store__img {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: auto;
+    align-self: center;
+    justify-content: center; }
+  .store__texto {
+    padding: 2rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column; }
+  .store__titulo {
+    font-family: "Bebas Neue", cursive;
+    color: #fff;
+    padding-left: 2rem;
+    font-size: 2.5rem; }
+  .store__info {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #dadada;
+    font-size: 1.5rem; }
+  .store__btn {
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    align-self: flex-end;
+    padding: 1em;
+    background-color: #ffffff;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 1s; }
+  .store__btn a {
+    align-self: flex-end; }
+  .store__btn:hover {
+    transform: scale(1.04);
+    background-color: #000000;
+    text-decoration: none;
+    color: #fff; }
+
+/* ----- Integrantes ---- */
+.integrantes {
+  background-color: #ffffff;
+  height: auto; }
+
+.titular {
+  height: 12.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; }
+  .titular__h2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 4rem;
+    color: #000;
+    align-self: center;
+    padding-left: 20px;
+    padding-top: 100px; }
+
+.miembros {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: auto;
+  width: 100%;
+  grid-gap: 20px;
+  padding: 20px; }
+  .miembros__contenido {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    height: auto;
+    background-color: #1f1f1f;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    transition: 1s; }
+  .miembros__img {
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    height: auto; }
+  .miembros__texto {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .miembros__titulo {
+    font-family: "Bebas Neue", cursive;
+    font-size: 2rem;
+    color: #fff; }
+  .miembros__info {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.3rem;
+    color: #a7a7a7; }
+  .miembros__contenido:hover {
+    background-color: #000; }
+
+.dos {
+  display: flex;
+  flex-direction: row-reverse; }
+
+.dos .miembros__img {
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%); }
+
+/*--------- Final integrantes flexbox ------ */
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.875em;
+  color: #fff; }
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.25em;
+  color: #fff;
+  padding: 0.625em 1.25em; }
+
+/* ------ Discografia Css Grid---- */
+.mainDiscografia {
+  height: auto;
+  background-color: #fff; }
+
+.disco {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 12.5em; }
+  .disco__titulo {
+    font-family: "Bebas Neue", cursive;
+    font-size: 3.75em;
+    align-self: center;
+    padding-top: 3.75rem;
+    color: #000; }
+
+.discografia {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "album   album   album  album"
+ "album   album   album  album";
+  grid-gap: 20px; }
+
+.album {
+  grid-area: album;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center; }
+  .album__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: 2s; }
+  .album__contenido p {
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.5rem;
+    color: #ffffff;
+    align-self: center;
+    position: absolute;
+    bottom: -100%;
+    transition: 1s; }
+  .album__contenido:hover p {
+    bottom: 30%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)); }
+  .album__img {
+    width: 15rem;
+    height: auto;
+    box-shadow: 4px 4px 5px 0px #202020bf; }
+  .album__contenido:hover {
+    transform: scale(1.05); }
+
+.musica {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "musica videos";
+  background-color: #e9e9e9; }
+
+.spotify {
+  grid-area: musica;
+  display:grid;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .spotify__titulo {
+    font-family: "Bebas Neue", cursive;
+    font-size: 3rem;
+    color: #000;
+    padding: 20px; }
+  .spotify__iframe {
+    width: 90%;
+    height: 28em;
+    padding: 20px; }
+
+
+/*--- ------ final de discografia ---- */
+/*----- Galeria -----*/
+.mainGaleria {
+  height: auto;
+  background-color: #222222; }
+
+.gale {
+  height: 10rem; }
+  .gale__titulo {
+    font-family: "Bebas Neue", cursive;
+    color: #ffffff;
+    font-size: 4.375em;
+    text-align: center;
+    margin: 0;
+    padding-top: 5.625rem;
+    padding-top: 2rem; }
+
+.carousel {
+  margin-top: 60px; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(250px, auto);
+  gap: 15px;
+  padding: 20px;
+  grid-auto-flow: dense;
+  background-color: #222222; }
+  .galeria__item-1, .galeria__item-2, .galeria__item-3, .galeria__item-4, .galeria__item-5, .galeria__item-6, .galeria__item-7, .galeria__item-8, .galeria__item-9, .galeria__item-10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/galeria14.jpg);
+    align-content: center;
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 1px 2px 5px 0px rgba(202, 202, 202, 0.75);
+    transition: 1s; }
+  .galeria__item-2 {
+    background-image: url(../imagenes/galeria3.jpg); }
+  .galeria__item-3 {
+    background-image: url(../imagenes/galeria4.jpg); }
+  .galeria__item-4 {
+    background-image: url(../imagenes/galeria5.jpg); }
+  .galeria__item-5 {
+    background-image: url(../imagenes/galeria6.jpg); }
+  .galeria__item-6 {
+    background-image: url(../imagenes/galeria7.jpg); }
+  .galeria__item-7 {
+    background-image: url(../imagenes/galeria8.jpg); }
+  .galeria__item-8 {
+    background-image: url(../imagenes/galeria9.jpg); }
+  .galeria__item-9 {
+    background-image: url(../imagenes/galeria10.jpg); }
+  .galeria__item-10 {
+    background-image: url(../imagenes/galeria11.webp); }
+
+.wide {
+  grid-column: span 2; }
+
+.galeria div {
+  transition: 1s; }
+
+.galeria div:hover {
+  transform: scale(1.03); }
+
+/*---- Final Galeria ----*/
+/*------- Contacto ------- */
+.mainContacto {
+  height: auto;
+  background-color: #383838; }
+
+.formulario {
+  height: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "info form";
+  margin-top: 3.75rem;
+  padding: 1.25rem;
+  padding-left: 10rem; }
+  .formulario__contenido {
+    height: 37.5rem;
+    grid-area: info;
+    background-image: url(../imagenes/contac.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.875rem; }
+  .formulario__titulo {
+    font-family: "Bebas Neue", cursive;
+    font-size: 3rem;
+    color: #fff; }
+  .formulario__contenido i {
+    font-size: 2rem;
+    color: #fff;
+    padding: 0.3125rem; }
+  .formulario__contenido span {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    padding: 0.3125rem; }
+  .formulario__hr {
+    width: 60%;
+    height: 1px;
+    background-color: #fff; }
+
+.form {
+  height: 37.5rem;
+  grid-area: form;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.25rem; }
+  .form__titulo {
+    font-family: "Bebas Neue", cursive;
+    font-size: 3rem;
+    color: #000; }
+  .form__label {
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.3rem;
+    color: #383838;
+    padding-top: 0.5rem; }
+  .form__input {
+    width: 60%;
+    height: 6%;
+    padding: 0.625rem;
+    transition: 0.3s; }
+  .form__suscripcion {
+    display: flex;
+    flex-direction: row;
+    padding: 10px; }
+  .form__checkbox {
+    margin-left: 1.25rem; }
+  .form__textarea {
+    width: 60%;
+    height: 14%;
+    padding: 0.625rem;
+  resize: none; }
+  .form__btn {
+    font-family: "Bebas Neue", cursive;
+    color: #fff9f9;
+    cursor: pointer;
+    display: inline-block;
+    align-self: flex-end;
+    padding: 1em;
+    background-color: #000000;
+    box-shadow: 0px 10px 14px -7px #8c8c8c;
+    border-radius: 4px;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 1s; }
+  .form__input:hover {
+    background-color: #000;
+    color: #eee; }
+  .form__textarea:hover {
+    background-color: #000;
+    color: #eee; }
+  .form__btn:hover {
+    transform: scale(1.05); }
+
+/*------ Final Contacto ------- */
+/*----- Footer ---------*/
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "contenido img redes"
+ "creador creador creador";
+  height: auto;
+  background-color: #000; }
+  .footer__contenido {
+    grid-area: contenido;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem; }
+  .footer__titulo, .footer__redesTitulo {
+    font-family: "Bebas Neue", cursive;
+    font-size: 2rem;
+    align-self: center;
+    color: #fff; }
+  .footer__parrafo {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    color: #c5c5c5;
+    align-self: center; }
+  .footer__hrContenido, .footer__hrRedes {
+    width: 60%;
+    height: 1px;
+    background-color: #fff; }
+  .footer__img {
+    grid-area: img;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .footer__imagen {
+    align-self: center;
+    width: 3.75rem; }
+  .footer__redes {
+    grid-area: redes;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem; }
+  .footer__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+  .footer__link {
+    color: #c5c5c5;
+    font-size: 1.5rem;
+    align-self: center;
+    letter-spacing: 30px;
+    transition: 1s; }
+  .footer__link:hover {
+    transform: scale(1.05);
+    color: #fff; }
+  .footer__creador {
+    grid-area: creador;
+    background-color: #414141;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .footer__diseñador {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.2rem; }
+  .footer__linke {
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    transition: 1s; }
+  .footer__linke:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+    color: #000000; }
+
+/*------ media queries---------*/
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 100%; }
+  /**seccion index**/
+  .contenidoUno__subtitulo {
+    background-color: rgba(0, 0, 0, 0.514); }
+  /***seccion sobre ellos***/
+  .contenidoDos {
+    height: auto; }
+    .contenidoDos__parrafo {
+      font-size: 1rem; }
+    .contenidoDos__tiulo {
+      padding-top: 10px;
+      padding-left: 1rem;
+      font-size: 1.5rem; }
+    .contenidoDos__img {
+      width: 100%;
+      height: auto; }
+  /** seccion compra **/
+  .compra {
+    height: auto; }
+    .compra__titulo {
+      font-size: 1.5rem;
+      padding-left: 1.25rem; }
+    .compra__info {
+      font-size: 1rem; }
+    .compra__img {
+      width: 80%;
+      height: auto; }
+  /****seccion compra index***/
+  .store {
+    height: auto; }
+    .store__titulo {
+      font-size: 1.5rem;
+      padding-left: 1.25rem; }
+    .store__info {
+      font-size: 1rem; }
+    .store__img {
+      width: 80%;
+      height: auto; }
+  /*----- Integrantes ----*/
+  .miembros {
+    height: auto; }
+    .miembros__info {
+      font-size: 1rem; }
+    .miembros__img {
+      width: 300px;
+      height: auto;
+      background: center; }
+  /*---- Discografia ----*/
+  .mainDiscografia {
+    height: auto; }
+  .discografia__iframe {
+    width: 20rem;
+    height: 100%; }
+  .musica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .videos__iframe {
+    margin-left: 1.25rem; }
+  /*------ Contacto ---*/
+  .formulario {
+    padding-left: 1.5rem; }
+    .formulario__titulo {
+      font-size: 2rem; }
+    .formulario__contenido i {
+      font-size: 1.5rem; }
+    .formulario__contenido span {
+      font-size: 1.5rem; }
+  .form {
+    width: 22.5em;
+    padding: 30px; }
+    .form__titulo {
+      font-size: 2rem; }
+  /*----- footer --- */
+  .footer__titulo, .footer__redesTitulo {
+    font-size: 1.4rem; }
+  .footer__link {
+    font-size: 1rem;
+    letter-spacing: 10px; }
+  /*********fin media 768px********/ }
+
+@media only screen and (max-width: 480px) {
+
+  
+  /*---- nav ------ */
+   .navi{
+    width: 50%;
+    text-align: right;
+   }
+  .social {
+    letter-spacing: 8px;
+    width: 50%;
+    overflow: hidden;
+    align-self: flex-end;
+    justify-content: space-around;}
+  /*----- index ------*/
+  .contenidoUno__titulo {
+    font-size: 5rem; }
+  .contenidoUno__subtitulo {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column; }
+  .contenidoUno__span {
+    font-size: 2rem; }
+  /********seccion sobre ellos***********/
+  .contenidoDos {
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; }
+    .contenidoDos__img {
+      width: 90%;
+      height: auto; }
+    .contenidoDos__texto {
+      font-size: 1rem; }
+  /********seccion compra*************/
+  .compra {
+    height: auto;
+    display: flex;
+    flex-direction: column; }
+    .compra__contenido {
+      display: flex;
+      flex-direction: column; }
+    .compra__img {
+      width: 80%;
+      height: auto;
+      margin: 0; }
+    .compra__btn {
+      align-self: flex-end; }
+  /*---- Integrantes ---*/
+  
+  .miembros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center; }
+    .miembros__contenido {
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      width: 98%;
+      height: auto; }
+    .miembros__texto {
+      padding: 10px; }
+    .miembros__img {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      width: 100%;
+      height: 300px; }
+  .dos .miembros__img {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 300px; }
+  .miembros img {
+    width: 100%; }
+  /*---- Discografia ----*/
+  .mainDiscografia {
+    height: auto; }
+  .disco__titulo {
+    font-size: 2rem; }
+  .spotify__titulo {
+    font-size: 2rem; }
+  .videos {
+    display: flex;
+    flex-direction: column; }
+    .videos__titulo {
+      font-size: 2rem;
+      align-self: center; }
+    .videos__embeed {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center; }
+    .videos__iframe {
+      width: 100%;
+      align-self: center; }
+  /**--------Fin Discografia---------------**/
+  .wide {
+    grid-column: span 1; }
+  /***conciertos - galeria**/
+  .gale__titulo {
+    font-size: 3rem; }
+  .conciertos {
+    display: flex;
+    flex-direction: column; }
+    .conciertos__titulo {
+      font-size: 3rem; }
+    .conciertos__embeed {
+      display: flex;
+      flex-direction: column; }
+    .conciertos__iframe {
+      width: 100%;
+      height: 400px; }
+  /*------ Contacto ---*/
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+  .form {
+    width: 100%; }
+  /*----- footer ---*/
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+    padding: 0px; }
+    .footer__link {
+      font-size: 2rem; }
+    .footer__creador {
+      width: 100%; }
+  /* fin de 480px*/ }
